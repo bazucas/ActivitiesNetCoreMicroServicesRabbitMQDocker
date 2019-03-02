@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luis\\Desktop\\Action\\src\\Actio.Api\\Actio.Api.csproj": {}
+    "C:\\Users\\Luis\\Desktop\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luis\\Desktop\\Action\\src\\Actio.Api\\Actio.Api.csproj": {
+    "C:\\Users\\Luis\\Desktop\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luis\\Desktop\\Action\\src\\Actio.Api\\Actio.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Luis\\Desktop\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
         "projectName": "Actio.Api",
-        "projectPath": "C:\\Users\\Luis\\Desktop\\Action\\src\\Actio.Api\\Actio.Api.csproj",
+        "projectPath": "C:\\Users\\Luis\\Desktop\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
         "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luis\\Desktop\\Action\\src\\Actio.Api\\obj\\",
+        "outputPath": "C:\\Users\\Luis\\Desktop\\Actio\\src\\Actio.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Luis\\Desktop\\Action\\src\\Actio.Common\\Actio.Common.csproj": {
-                "projectPath": "C:\\Users\\Luis\\Desktop\\Action\\src\\Actio.Common\\Actio.Common.csproj"
+              "C:\\Users\\Luis\\Desktop\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
+                "projectPath": "C:\\Users\\Luis\\Desktop\\Actio\\src\\Actio.Common\\Actio.Common.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\Luis\\Desktop\\Action\\src\\Actio.Common\\Actio.Common.csproj": {
+    "C:\\Users\\Luis\\Desktop\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luis\\Desktop\\Action\\src\\Actio.Common\\Actio.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Luis\\Desktop\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
         "projectName": "Actio.Common",
-        "projectPath": "C:\\Users\\Luis\\Desktop\\Action\\src\\Actio.Common\\Actio.Common.csproj",
+        "projectPath": "C:\\Users\\Luis\\Desktop\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
         "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luis\\Desktop\\Action\\src\\Actio.Common\\obj\\",
+        "outputPath": "C:\\Users\\Luis\\Desktop\\Actio\\src\\Actio.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Xamarin\\NuGet\\",
@@ -111,11 +111,35 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
+            },
+            "RawRabbit.DependencyInjection.ServiceCollection": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-beta8, )"
             }
           },
           "imports": [
